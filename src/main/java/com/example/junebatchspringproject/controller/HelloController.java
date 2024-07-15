@@ -11,7 +11,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String sayHello(){
         System.out.println("My first endpoint");
-        System.out.println("Hello Nehag");
+        System.out.println("Hello bhavana");
         return "Hellow World Saritha";
     }
 
