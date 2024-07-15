@@ -10,8 +10,8 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello(){
-        System.out.println("My first endpoint");
-        System.out.println("Hello bhavana");
+        //System.out.println("My first endpoint");
+
         return "Hellow World Saritha";
     }
 
@@ -19,6 +19,10 @@ public class HelloController {
     @GetMapping("/helloSaritha")
     public String sayHello1(){
         return "Hellow World Saritha ---------=======";
+    }
+    @GetMapping
+    public String say(){
+        return "hellooo";
     }
 
 
