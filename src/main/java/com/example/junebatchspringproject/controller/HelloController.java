@@ -30,6 +30,7 @@ public class HelloController {
         System.out.println("Hello Akshatha");
         System.out.println("june batch");
         System.out.println("JavaFullStack");
+        System.out.println("SpringBootProject");
         System.out.println("Hello Everyone");
 
         System.out.println("New Branch");
