@@ -11,18 +11,35 @@ public class HelloController {
     @GetMapping("/hello")
     public String sayHello(){
         System.out.println("My first endpoint");
-        System.out.println("Hello Suryasree");
 
+        System.out.println("Hello ambika");
+
+        System.out.println("Hello Suryasree");
+       System.out.println("Hello swathi");
+        System.out.println("Hello parvathy");
         System.out.println("Hello bhavana");
+        System.out.println("Hello Worldg");
+        System.out.println("Hello Akshatha");
         System.out.println("Hello Everyone");
+<<<<<<< HEAD
         System.out.println("New Branch");
+=======
+        System.out.println("Surachita");
+        System.out.println("Hello World");
+
+
+
+>>>>>>> 72276ad7c2a73981244ebdf5dd25e14273f2f5e5
         return "Hellow World Saritha";
     }
 
 
     @GetMapping("/helloSaritha")
     public String sayHello1(){
+        System.out.println("creating  branch");
+        System.out.println("creating new  branch11");
         return "Hellow World Saritha ---------=======";
+
     }
 
 
