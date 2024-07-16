@@ -21,11 +21,16 @@ public class HelloController {
         System.out.println("Hello Worldg");
         System.out.println("Hello Akshatha");
         System.out.println("Hello Everyone");
+<<<<<<< HEAD
+        System.out.println("New Branch");
+=======
         System.out.println("Surachita");
         System.out.println("Hello World");
+        System.out.println("Branch added");
 
 
 
+>>>>>>> 72276ad7c2a73981244ebdf5dd25e14273f2f5e5
         return "Hellow World Saritha";
     }
 
