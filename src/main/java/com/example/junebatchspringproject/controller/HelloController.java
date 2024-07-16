@@ -38,8 +38,8 @@ public class HelloController {
     @GetMapping("/helloSaritha")
     public String sayHello1(){
         System.out.println("creating branch");
-        System.out.println("added Bhavana_ Branch");
-        return "Hellow World Saritha";
+        System.out.println("added Bhavana1836 Branch");
+        return "Hello World Saritha";
 
     }
 
