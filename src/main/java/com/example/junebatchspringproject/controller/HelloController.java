@@ -11,19 +11,40 @@ public class HelloController {
     @GetMapping("/hello")
     public String sayHello(){
         System.out.println("My first endpoint");
-<<<<<<< HEAD
+        System.out.println("Chk");
+        System.out.println("Hello ambika");
+
         System.out.println("Hello Suryasree");
+<<<<<<< HEAD
         System.out.println("New github");
+=======
+       System.out.println("Hello swathi");
+        System.out.println("Hello parvathy");
+>>>>>>> c8cfa307f71a0b53555e8e831a547d6f3a91dab6
         System.out.println("Hello bhavana");
+        System.out.println("Hello Worldg");
+        System.out.println("Hello Akshatha");
         System.out.println("Hello Everyone");
->>>>>>> c5a52a1846005cecea5a9b6f4c217a9ae11c6b25
+
+        System.out.println("New Branch");
+
+        System.out.println("Surachita");
+        System.out.println("Hello World");
+        System.out.println("Branch added");
+
+
+
+
         return "Hellow World Saritha";
     }
 
 
     @GetMapping("/helloSaritha")
     public String sayHello1(){
-        return "Hellow World Saritha ---------=======";
+        System.out.println("creating branch");
+        System.out.println("Bhavana1836 Branch");
+        return "Hello World Saritha";
+
     }
 
 
