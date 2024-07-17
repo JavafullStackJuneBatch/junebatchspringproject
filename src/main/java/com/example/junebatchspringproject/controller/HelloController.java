@@ -15,8 +15,12 @@ public class HelloController {
         System.out.println("Hello ambika");
 
         System.out.println("Hello Suryasree");
+<<<<<<< HEAD
+        System.out.println("New github");
+=======
        System.out.println("Hello swathi");
         System.out.println("Hello parvathy");
+>>>>>>> c8cfa307f71a0b53555e8e831a547d6f3a91dab6
         System.out.println("Hello bhavana");
         System.out.println("Hello Worldg");
         System.out.println("Hello Akshatha");
