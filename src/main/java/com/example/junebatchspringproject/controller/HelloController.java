@@ -20,18 +20,14 @@ public class HelloController {
         System.out.println("Hello bhavana");
         System.out.println("Hello Worldg");
         System.out.println("Hello Akshatha");
-<<<<<<< HEAD
-<<<<<<< HEAD
         System.out.println("june batch");
         System.out.println("JavaFullStack");
         System.out.println("SpringBootProject");
         System.out.println("Github");
-=======
-
         System.out.println("june batch");
         System.out.println("JavaFullStack");
         System.out.println("SpringBootProject");
->>>>>>> a757969d188c7f6e9f74b9f4ee0c1fdd37ee340f
+        System.out.println("SpringFramework");
 
         System.out.println("Hello Everyone");
 
