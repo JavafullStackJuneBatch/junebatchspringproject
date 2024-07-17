@@ -25,8 +25,7 @@ public class HelloController {
         System.out.println("JavaFullStack");
         System.out.println("SpringBootProject");
         System.out.println("Github");
-=======
->>>>>>> c8cfa307f71a0b53555e8e831a547d6f3a91dab6
+
         System.out.println("Hello Everyone");
 
         System.out.println("New Branch");
