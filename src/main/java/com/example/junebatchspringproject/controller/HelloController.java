@@ -28,6 +28,7 @@ public class HelloController {
         System.out.println("JavaFullStack");
         System.out.println("SpringBootProject");
         System.out.println("SpringFramework");
+        System.out.println("SpringFramework24");
 
         System.out.println("Hello Everyone");
 
