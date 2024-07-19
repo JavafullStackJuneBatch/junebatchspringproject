@@ -11,12 +11,17 @@ public class HelloController {
     @GetMapping("/hello")
     public String sayHello(){
         System.out.println("My first endpoint");
+        System.out.println("Hello Kavya");
         System.out.println("Chk");
         System.out.println("Hello ambika");
 
         System.out.println("Hello Suryasree");
+
+        System.out.println("New github");
        System.out.println("Hello swathi");
+       System.out.println("Hello Siri");
         System.out.println("Hello parvathy");
+
         System.out.println("Hello bhavana");
         System.out.println("Hello Worldg");
         System.out.println("Hello Akshatha");
@@ -37,6 +42,7 @@ public class HelloController {
         System.out.println("Surachita");
         System.out.println("Hello World");
         System.out.println("Branch added");
+        System.out.println("Hi Ambika");
 
 
 
