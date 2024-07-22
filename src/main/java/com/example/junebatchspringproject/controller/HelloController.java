@@ -58,6 +58,11 @@ public class HelloController {
         return "Hello World Saritha";
 
     }
+    @GetMapping("/branch")
+    public String Branch(){
+        System.out.println("Creating branch");
+        return "Nandini";
+    }
 
 
 }
