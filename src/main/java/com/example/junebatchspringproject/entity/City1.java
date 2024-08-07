@@ -3,7 +3,7 @@ package com.example.junebatchspringproject.entity;
 import jakarta.persistence.*;
 
 @Entity
-public class City {
+public class City1 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -33,14 +33,14 @@ public class City {
     public void setPostcode(String postcode) {
         this.postcode = postcode;
     }
-    @JoinColumn(name = "country_id",referencedColumnName = "id")
-    private Country country;
-
-    public Country getCountry() {
-        return country;
-    }
-
-    public void setCountry(Country country) {
-        this.country = country;
-    }
+//    @ManyToOne(cascade = CascadeType.ALL)
+//    private Country1 country1;
+//
+//    public Country1 getCountry1() {
+//        return country1;
+//    }
+//
+//    public void setCountry1(Country1 country1) {
+//        this.country1 = country1;
+//    }
 }

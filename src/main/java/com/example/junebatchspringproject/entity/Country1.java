@@ -35,7 +35,9 @@ public class Country1 {
     public void setCapital(String capital) {
         this.capital = capital;
     }
-    @OneToMany(mappedBy = "city")
+    //@OneToMany(mappedBy = "city")
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "country_id",referencedColumnName = "id")
     private List<City1> citis;
 
     public List<City1> getCitis() {
